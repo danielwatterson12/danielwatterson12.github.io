@@ -1,0 +1,42 @@
+/* Styles for both Anni Albers layouts */
+
+main{
+    width: 80%;
+    max-width: 1100 px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+p {
+   font-size: 1.25rem;
+   line-height: 2.5rem;
+}
+
+p.callout {
+   font-size: 2rem;
+   line-height: 2.2rem;
+   font-style: italic;
+   float: right;
+   text-align: right;
+   padding-left: 2en;
+   margin-top: 0;
+
+}
+
+#row1 p,
+#row3 p{
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row4 p{
+     margin-left: calc(100% * 2 / 6);
+}
+
